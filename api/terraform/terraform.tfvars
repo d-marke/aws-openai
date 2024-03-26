@@ -10,13 +10,13 @@
 ###############################################################################
 # AWS CLI parameters
 ###############################################################################
-aws_account_id = "123456789012"
+aws_account_id = "992382504687"
 tags = {
   "terraform" = "true",
-  "project"   = "OpenAI Code Samples"
-  "contact"   = "YOUR CONTACT INFORMATION GOES HERE."
+  "project"   = "OpenAI Serverless Wrapper"
+  "contact"   = "MAIN"
 }
-aws_region = "us-east-1"
+aws_region = "us-east-2"
 # aws_profile = "default"
 
 ###############################################################################
@@ -29,7 +29,7 @@ openai_endpoint_image_size = "1024x768"
 ###############################################################################
 # Lambda parameters
 ###############################################################################
-lambda_python_runtime = "python3.11"
+lambda_python_runtime = "python3.12"
 debug_mode            = true
 lambda_memory_size    = 256
 lambda_timeout        = 600
